@@ -1,7 +1,7 @@
-<h2 align="center">Contador</h2>
+<h2 align="center">FocusTimer</h2>
 
 <h1 align="center">
-    <img width="600px" alt="Contador" title="#Contador" src="https://github.com/freitasbr01/rocketnotes-front/blob/main/src/assets/rocketnotes2.png" />
+    <img width="600px" alt="FocusTimer" title="#FocusTimer" src="https://github.com/freitasbr01/focustimer/blob/main/assets/contador.png" />
 </h1>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 Nesse projeto foi desenvolvido uma aplicação web de contagem regressiva com a capacidade de aumentar ou diminuir o tempo em intervalos de 5 minutos. Um recurso da aplicação é a funcionalidade para ativação de sons ambientes variados. Cada som é representado por um ícone intuitivo, permitindo uma fácil navegação e interação.”
 
-Link de acesso - <a href="https://rocketnotes02.netlify.app/">Contador</a>
+Link de acesso - <a href="https://rocketnotes02.netlify.app/">FocusTimer</a>
 
 Projeto desenvolvido durante o Curso Explorer da **Rocketseat**.
 
