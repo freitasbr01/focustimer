@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: hsl(0, 0%, 100%);
+  --text-icon-color: hsl(240, 6%, 21%);
+  --bg-card: #e0e0e5;
+  
+  font-size: clamp(40%, 1% + 2vw, 62.5% )
+}
+
+html.dark {
+  --bg-color: hsl(0, 0%, 0%);
+  --text-icon-color: hsla(0, 0%, 100%, 0.897);
+  --controls-color: invert(100%);
+  color: #0aa5d4;
+  color: #5ab85a;
+  color: #f85928;
+}
+
+html.dark .ph-moon,
+html:not(.dark) .ph-sun {
+  display: none;
+}
+
+.sr-only {
+  width: 1px;
+  height: 1px;;
+  position: absolute;
+  overflow: hidden;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-icon-color);
+
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+#app {
+  display: grid;
+  justify-items: center;
+}
+
+#toggle-mode, #controls button {
+  border: none;
+  background: transparent;
+  font-size: 6.0rem;
+  cursor: pointer;
+  color: var(--text-icon-color);
+}
+
+#toggle-mode {
+  font-size: 3.5rem;
+}
+
+#toggle-mode {
+  position: absolute;
+  right: 3.2rem;
+  top: 3.2rem;
+
+}
+
+#box-timer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#timer span {
+  font-size: 12.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+#cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 3.2rem;
+}
+
+#cards button {
+  border: none;
+  width: 13.8rem;
+  height: 15.2rem;
+  background: var(--bg-card);
+  border-radius: 2.4rem;
+  cursor: pointer;
+
+}
+
+#controls {
+  display: flex;
+  gap: 4.0rem;
+}
+
+#controls img {
+  filter: var(--controls-color)
+}
+
+#main {
+ display: flex; 
+ align-items: center;
+ gap: 10.2rem;
+}
+

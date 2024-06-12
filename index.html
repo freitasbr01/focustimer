@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FocusTimer 2.0</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script type="module" src="src/main.js" defer></script>
+</head>
+
+<body>
+  <div id="app">
+
+    <button id="toggle-mode">
+      <span class="sr-only">Ativar Dark Mode!</span>
+      <i class="ph-bold ph-sun"></i>
+      <i class="ph-bold ph-moon"></i>
+    </button>
+
+    <div id="main">
+
+      <section id="box-timer">
+        <div id="timer">
+          <span id="minutes">00</span>
+          <span>:</span>
+          <span id="seconds">00</span>
+        </div>
+
+        <div id="controls">
+          <button>
+            <img data-action="play" src="assets/play.svg" alt="">
+            <span class="sr-only">Iniciar contador</span>
+          </button>
+
+          <button>
+            <img data-action="stop" src="assets/stop.svg" alt="">
+            <span class="sr-only">Parar contador</span>
+          </button>
+
+          <button>
+            <img data-action="plus" src="assets/+.svg" alt="">
+            <span class="sr-only">Aumentar em mais 5 minutos o tempo do timer</span>
+          </button>
+
+          <button>
+            <img data-action="minus" src="assets/-.svg" alt="">
+            <span class="sr-only">Diminuir em 5 minutos o tempo do timer.</span>
+          </button>
+        </div>
+      </section>
+
+
+      <section id="cards">
+        <button data-action="florest" class="forest">
+          <img  data-action="florest" src="assets/Floresta.svg" alt="">
+        </button>
+
+        <button data-action="rain" class="rain">
+          <img data-action="rain" src="assets/Chuva.svg" alt="">
+        </button>
+
+        <button data-action="coffee" class="coffee">
+          <img data-action="coffee" src="assets/Cafeteria.svg" alt="">
+        </button>
+
+        <button data-action="fireplace" class="fireplace">
+          <img data-action="fireplace" src="assets/Lareira.svg" alt="">
+        </button>
+
+      </section>
+    </div>
+
+  </div>
+</body>
+
+</html>
