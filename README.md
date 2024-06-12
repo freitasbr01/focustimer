@@ -11,7 +11,7 @@
 
 ## 💻 Sobre o projeto
 
-Nesse projeto foi desenvolvido uma aplicação web de contagem regressiva com a capacidade de aumentar ou diminuir o tempo em intervalos de 5 minutos. Um recurso da aplicação é a funcionalidade para ativação de sons ambientes variados. Cada som é representado por um ícone intuitivo, permitindo uma fácil navegação e interação.”
+Nesse projeto foi desenvolvido uma aplicação web de contagem regressiva com a capacidade de aumentar ou diminuir o tempo em intervalos de 5 minutos. Um recurso da aplicação é a funcionalidade para ativação de sons ambientes variados. Cada som é representado por um ícone intuitivo, permitindo uma fácil navegação e interação.
 
 Link de acesso - <a href="https://focustimer02.netlify.app/">FocusTimer</a>
 
